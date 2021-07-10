@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <form method="POST" action="https://www.google.com/">
+        <h2>Tell us what you think</h2>
+        First name: <input type="text" name="firstname" size="30">
+        <br>
+        Last name: <input type="text" name="lastname" size="30">
+        <br>
+
+
+        First name:<br>
+        <input type="text" name="first" size="30" value="Amit" maxlength="5">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        Insert password: <input type="password" name="pas" size="8" maxlength="8">
+        <br>
+        <br>
+        Hidden here: <input type="hidden" name="hid" size="25">
+        <br>
+        <hr>
+
+        <h4>Enter you full adress please:</h4>
+
+        <textarea name="address" rows="5" cols="23">
+        Default text area.
+        Type your tex here
+        </textarea>
+        <hr>
+
+        <h4>select payment method</h4>
+
+        <select name="creditcardType">
+            <option value="mc">MasterCard</option>
+            <option value="vs">Visa Card</option>
+            <option value="amex"> American Express</option>
+
+        </select>
+        <br><br>
+        <input type="submit">
+
+
+        <hr>
+
+        <h4>select payment method</h4>
+        <input type="radio" name="creaditCard" value="visa">Visa
+        <input type="radio" name="creaditCard" value="Amex">American Express
+        <input type="radio" name="creaditCard" value="mc"> MasterCard
+        <input type="submit" name="sub" value="submit">
+        <input type="reset" name="re" value="reset">
+        <input type="button" name="Exit" value="Pandanglah Saya">
+        <input type="button" onclick="alert('Hello Universe!')" value="click me!">
+
+
+    </form>
+</body>
+
+</html>
